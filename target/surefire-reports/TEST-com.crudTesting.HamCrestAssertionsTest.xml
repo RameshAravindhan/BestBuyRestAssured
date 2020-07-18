@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.crudTesting.BestButResponseTest" time="6.906" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.crudTesting.HamCrestAssertionsTest" time="5.628" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\rames\AppData\Local\Temp\surefire5732730870264938196\surefirebooter8347681699300514197.jar C:\Users\rames\AppData\Local\Temp\surefire5732730870264938196 2020-07-18T15-28-14_760-jvmRun1 surefire3435665531133064094tmp surefire_11715296460162810223tmp"/>
+    <property name="sun.java.command" value="C:\Users\rames\AppData\Local\Temp\surefire5732730870264938196\surefirebooter3089337392947399541.jar C:\Users\rames\AppData\Local\Temp\surefire5732730870264938196 2020-07-18T15-28-14_760-jvmRun1 surefire7050867508057433575tmp surefire_29028520797185647817tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\rames\eclipse-workspace\BestBuyRestAssured\target\test-classes;C:\Users\rames\eclipse-workspace\BestBuyRestAssured\target\classes;C:\Users\rames\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\rames\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\rames\.m2\repository\org\slf4j\slf4j-simple\1.6.1\slf4j-simple-1.6.1.jar;C:\Users\rames\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\rames\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\rames\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\rames\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\rames\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\rames\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\rames\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rames\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\rames\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\rames\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\rames\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\rames\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\rames\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\rames\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\rames\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\rames\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\rames\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\rames\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\rames\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-M1\junit-jupiter-api-5.7.0-M1.jar;C:\Users\rames\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rames\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-M1\junit-platform-commons-1.7.0-M1.jar;C:\Users\rames\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-M1\junit-jupiter-engine-5.7.0-M1.jar;C:\Users\rames\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-M1\junit-platform-engine-1.7.0-M1.jar;C:\Users\rames\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\rames\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\rames\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\rames\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\rames\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\rames\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\rames\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\rames\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\rames\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\rames\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rames"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\rames\AppData\Local\Temp\surefire5732730870264938196\surefirebooter8347681699300514197.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rames\AppData\Local\Temp\surefire5732730870264938196\surefirebooter3089337392947399541.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,11 +60,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="extractUsingCondition" classname="com.crudTesting.BestButResponseTest" time="0.164"/>
-  <testcase name="getDataElements" classname="com.crudTesting.BestButResponseTest" time="0.079"/>
-  <testcase name="getNameList" classname="com.crudTesting.BestButResponseTest" time="0.003"/>
-  <testcase name="getFirstData" classname="com.crudTesting.BestButResponseTest" time="0.007"/>
-  <testcase name="getlastData" classname="com.crudTesting.BestButResponseTest" time="0.01"/>
-  <testcase name="getRootResponse" classname="com.crudTesting.BestButResponseTest" time="0.059"/>
-  <testcase name="getTotal" classname="com.crudTesting.BestButResponseTest" time="0.002"/>
+  <testcase name="multiAssertTest" classname="com.crudTesting.HamCrestAssertionsTest" time="3.832"/>
+  <testcase name="equalsIgnoreCaseTest" classname="com.crudTesting.HamCrestAssertionsTest" time="0.146"/>
+  <testcase name="simpleAssertTest" classname="com.crudTesting.HamCrestAssertionsTest" time="0.14"/>
+  <testcase name="multiSizeAssertTest" classname="com.crudTesting.HamCrestAssertionsTest" time="0.253"/>
+  <testcase name="hasItemTest" classname="com.crudTesting.HamCrestAssertionsTest" time="0.106"/>
+  <testcase name="simpleAssertHamCrestTest" classname="com.crudTesting.HamCrestAssertionsTest" time="0.126"/>
+  <testcase name="softAssertTest" classname="com.crudTesting.HamCrestAssertionsTest" time="0.126"/>
 </testsuite>
